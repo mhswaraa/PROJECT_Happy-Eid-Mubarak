@@ -120,12 +120,9 @@ h6 {
 #hero {
   width: 100%;
   padding: 0;
-  background: url('/assets/img/hero-bg.jpg');
-  background-size: cover;
+  background: URL('assets/img/123.jpg');
   background-position: center;
 }
-
-
 
 #hero h1 {
   margin: 0 0 15px 0;
