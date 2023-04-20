@@ -161,7 +161,7 @@ opacity: 1;
   border: none;
   transition: all ease-in-out 0.3s;
   display: inline-block;
-  background: linear-gradient(45deg, #b4b420, #dccd59);
+  background: linear-gradient(45deg, #b4b420b7, #dccd59ae);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
