@@ -84,10 +84,14 @@ h6 {
   padding: 16px 0;
   background: #b1b832;
 }
+#header .logo {
+  text-align: center;
+}
 
 #header .logo h1 {
   font-size: 20px;
   margin: -15px;
+  text-align: center;
   padding: 10px 0;
   line-height: 1;
   font-weight: 600;
