@@ -106,12 +106,6 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  padding: 0;
-  background: URL('assets/img/123.jpg');
-  background-position: center;
-}
 
 #hero h1 {
   margin: 0 0 15px 0;
@@ -145,6 +139,7 @@ opacity: 1;
   margin-bottom: 30px;
   font-size: 20px;
   text-align: center;
+  
 }
 
 #hero h3 {
@@ -169,7 +164,18 @@ opacity: 1;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   position: relative;
   overflow: hidden;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
   }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
   
   #hero .btn-get-started::before {
   content: "";
