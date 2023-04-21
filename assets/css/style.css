@@ -120,19 +120,29 @@ h6 {
   letter-spacing: 2px;
   -webkit-text-fill-color: transparent;
   animation: blink 5s ease-in-out infinite alternate;
-}
-@keyframes blink {
-0% {
-opacity: 1;
-}
-50% {
-opacity: 0;
-}
-100% {
-opacity: 1;
+  
+  /* Efek 3D */
+  transform: perspective(500px) rotateX(15deg);
+  transform-style: preserve-3d;
 }
 
+/* Efek tambahan */
+#hero {
+  background-color: #222;
+  padding: 50px;
+  text-align: center;
 }
+
+#hero h1 {
+  position: relative;
+  display: inline-block;
+  padding: 20px 40px;
+  background: linear-gradient(to bottom right, #9e932f, #e8dbdb30);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  transform: translateZ(30px);
+}
+
   
 #hero h2 {
   color: #fff;
